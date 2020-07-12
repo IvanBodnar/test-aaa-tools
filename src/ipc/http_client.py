@@ -7,7 +7,7 @@ from requests.exceptions import RequestException
 from .exceptions import RequestsError
 
 
-class RequestsClient:
+class HttpClient:
     def __init__(self, base_url: str = ''):
         self._base_url = base_url
 
